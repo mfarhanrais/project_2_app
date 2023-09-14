@@ -6,9 +6,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load dataset
-# data = pd.read_csv("/Users/m.farhanrais/Documents/GitHub/DSI-SG-39/My Projects/project_2/data/df_01.csv")
+# data = pd.read_csv("/Users/m.farhanrais/Documents/GitHub/DSI-SG-39/My Projects/project_2/data/train.csv")
 # For Streamlit:
-data = pd.read_csv("../data/train.csv")
+data = pd.read_csv("train.csv")
 
 # Define the features (X) and target variable (y)
 X = data[['floor_area_sqm', 
